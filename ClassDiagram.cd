@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Task">
+    <Position X="1.25" Y="4.75" Width="2" />
+    <InheritanceLine Type="Issue" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="5.875" />
+        <Point X="3.25" Y="5.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAQAAQAAAAAAAEBAAAAAAAA=</HashCode>
+      <FileName>Task.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project">
+    <Position X="6.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>MBAAEIhAQAAggCKEIBQBChBAAEBlAQZkQARUAyDAKEQ=</HashCode>
+      <FileName>Project.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectMember">
+    <Position X="9.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAQAAUBAAAAAAAAABAAAAAAAAAAQAAAQAAAAAg=</HashCode>
+      <FileName>ProjectMember.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pair&lt;T, T2&gt;">
+    <Position X="9.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAgAAAAAAgAAAAAAgEAAAAAAAAAAAABABAAAAAAAAA=</HashCode>
+      <FileName>Pair.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Issue">
+    <Position X="4" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Issue::IssueData">
+        <TypeIdentifier>
+          <NewMemberFileName>Issue.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAUAEWAAAAAgAAPAKAAKIBQABQBAAABEABDEQAAEAAE=</HashCode>
+      <FileName>Issue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Feature">
+    <Position X="1.25" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAwAAEAAAAAAAAAAABAAAAQIAQAAAAAAAABACACBAAA=</HashCode>
+      <FileName>Feature.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Account">
+    <Position X="9.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQCAEAgACAAEAEAAAAAIAEAABAAAFEAgQAEOA=</HashCode>
+      <FileName>Account.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bug">
+    <Position X="1.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEAAAAAAAAAAAEAAAAQAKQAgAAACAABAAAAAAAA=</HashCode>
+      <FileName>Bug.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
